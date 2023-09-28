@@ -5,9 +5,9 @@ Steps to change packages:
 
 1 - Add your .jar library in the libs folder
 
-2. In app>build.gradle, find the updateJar task and write the name of your library and which packages you want to rename.
+2 - In app>build.gradle, find the updateJar task and write the name of your library and which packages you want to rename.
 
-3. Only execute the task.
+3 - Only execute the task.
 
 4 - Find the output app.jar in the build/libs folder.
 
