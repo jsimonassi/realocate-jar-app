@@ -81,9 +81,11 @@ task updateJar(type: ShadowJar, dependsOn: renameClasses) {
         include 'renamed_ido.jar'
         rename { fileName -> "renamedLib.${fileName}" }
     }
-    relocate 'com.realsil.', 'com.radix.'
-}
+    //Faça um por vez para cada pacote que deseja realocar
 
+//    relocate 'com.realsil.', 'com.radix.'
+    relocate 'com.sifli.', 'com.radixsifli.'
+}
 
 
 
